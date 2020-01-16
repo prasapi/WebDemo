@@ -25,6 +25,7 @@ Empty Username And Password      ${EMPTY}         ${EMPTY}
 Login With Invalid Credentials Should Fail
     # This is another comment
     [Arguments]    ${username}    ${password}
+    # These are username and password
     Input Username    ${username}
     Input Password    ${password}
     Submit Credentials

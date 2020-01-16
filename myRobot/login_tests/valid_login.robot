@@ -9,6 +9,8 @@ Resource          resource.robot
 Valid Login
     Open Browser To Login Page
     # This is a comment
+    # These are user name and password
+    
     Input Username    demo
     Input Password    mode
     Submit Credentials
