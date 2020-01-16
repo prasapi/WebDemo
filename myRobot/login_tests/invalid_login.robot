@@ -32,5 +32,6 @@ Login With Invalid Credentials Should Fail
     Login Should Have Failed
 
 Login Should Have Failed
+    # This is new comment
     Location Should Be    ${ERROR URL}
     Title Should Be    Error Page
