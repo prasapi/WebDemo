@@ -23,12 +23,15 @@ Empty Username And Password      ${EMPTY}         ${EMPTY}
 
 *** Keywords ***
 Login With Invalid Credentials Should Fail
+    # This is another comment
     [Arguments]    ${username}    ${password}
+    # These are username and password
     Input Username    ${username}
     Input Password    ${password}
     Submit Credentials
     Login Should Have Failed
 
 Login Should Have Failed
+    # This is new comment
     Location Should Be    ${ERROR URL}
     Title Should Be    Error Page
