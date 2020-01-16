@@ -8,6 +8,7 @@ Resource          resource.robot
 *** Test Cases ***
 Valid Login
     Open Browser To Login Page
+    # This is a comment
     Input Username    demo
     Input Password    mode
     Submit Credentials
